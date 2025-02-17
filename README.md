@@ -1,7 +1,5 @@
-Berikut adalah pembaruan README dengan link portfolio yang Anda tambahkan:
-
+# **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
 ```markdown
-# Data Driven Inventory Management Optimization for Retail Efficiency and Profitability
 
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk mengoptimalkan manajemen inventaris di sektor ritel dengan menggunakan teknik berbasis data, termasuk **Just In Time (JIT)**, **Safety Stock**, dan **Reorder Point (ROP)**. Tujuannya adalah untuk mengurangi biaya penyimpanan, mencegah kekurangan stok (stockout), dan meningkatkan efisiensi pengadaan produk. Dengan menggunakan data untuk membuat keputusan yang lebih baik, proyek ini membantu bisnis ritel dalam meningkatkan profitabilitas dan operasional mereka.
