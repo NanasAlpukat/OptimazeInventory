@@ -1,4 +1,4 @@
-## **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
+# **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
 
 ### Project Description
 This project aims to optimize inventory management in the retail sector using data-driven techniques, including **Just In Time (JIT)**, **Safety Stock**, and **Reorder Point (ROP)**. The goal is to reduce storage costs, prevent stockouts, and improve procurement efficiency. By utilizing data for better decision-making, this project helps retail businesses enhance their profitability and operational performance.
