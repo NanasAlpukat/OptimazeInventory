@@ -1,67 +1,66 @@
-## **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
+# **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
 
+### Project Description
+This project aims to optimize inventory management in the retail sector using data-driven techniques, including **Just In Time (JIT)**, **Safety Stock**, and **Reorder Point (ROP)**. The goal is to reduce storage costs, prevent stockouts, and improve procurement efficiency. By utilizing data for better decision-making, this project helps retail businesses enhance their profitability and operational performance.
 
-## Deskripsi Proyek
-Proyek ini bertujuan untuk mengoptimalkan manajemen inventaris di sektor ritel dengan menggunakan teknik berbasis data, termasuk **Just In Time (JIT)**, **Safety Stock**, dan **Reorder Point (ROP)**. Tujuannya adalah untuk mengurangi biaya penyimpanan, mencegah kekurangan stok (stockout), dan meningkatkan efisiensi pengadaan produk. Dengan menggunakan data untuk membuat keputusan yang lebih baik, proyek ini membantu bisnis ritel dalam meningkatkan profitabilitas dan operasional mereka.
+### Goals
+- 🎯 **Optimize inventory management** to reduce storage costs and prevent stockouts.
+- 📈 **Increase procurement efficiency** through data-driven cost-benefit analysis.
 
-## Tujuan
-- 🎯 **Mengoptimalkan manajemen inventaris** untuk menekan biaya penyimpanan dan mencegah kekurangan stok.
-- 📈 **Meningkatkan efisiensi pengadaan** melalui analisis cost-benefit yang berbasis data.
+### Background
+Efficient inventory management is crucial in retail to minimize storage costs and prevent stockouts. Poor management can lead to overstock or lost revenue due to stockouts. Therefore, a data-driven approach is needed to improve efficiency and profitability.
 
-## Latar Belakang
-Manajemen inventaris yang efisien sangat penting dalam ritel untuk menekan biaya penyimpanan dan mencegah kekurangan stok. Pengelolaan yang buruk dapat menyebabkan kelebihan stok atau kehilangan pendapatan akibat stockout. Oleh karena itu, pendekatan berbasis data diperlukan untuk meningkatkan efisiensi dan profitabilitas.
+### Business Metrics
+- 📊 **Profit Growth**: Measures profit growth before and after inventory optimization.
+- 💸 **Cost Savings**: Identifies cost reductions from excess inventory and stockouts.
+- 📉 **Stockout Rate**: Evaluates the frequency of stockouts.
+- 🔄 **Inventory Turnover**: Measures how quickly goods are sold and replaced.
 
-## Metrik Bisnis
-- 📊 **Profit Growth**: Mengukur pertumbuhan keuntungan sebelum dan setelah optimasi inventaris.
-- 💸 **Cost Savings**: Mengidentifikasi pengurangan biaya dari inventaris berlebih dan stockout.
-- 📉 **Stockout Rate**: Mengevaluasi frekuensi terjadinya kekurangan persediaan.
-- 🔄 **Inventory Turnover**: Mengukur seberapa cepat barang terjual dan diganti.
+### Business Impact
+- 🚀 **Improved Operational Efficiency**: Achieved cost savings of up to 44.7% through JIT implementation.
+- 💵 **Increased Profitability**: JIT improved profits by 7.5% to 17.1% monthly.
+- ⚖️ **Reduced Risk of Stockout and Overstock**: JIT kept stockout rate at 0%, ensuring optimal stock availability.
 
-## Dampak Bisnis
-- 🚀 **Efisiensi Operasional Meningkat**: Penghematan biaya hingga 44,7% dengan implementasi JIT.
-- 💵 **Peningkatan Profitabilitas**: JIT meningkatkan profit antara 7,5% hingga 17,1% setiap bulan.
-- ⚖️ **Pengurangan Risiko Stockout dan Overstock**: JIT berhasil menjaga stockout rate di 0%, memastikan ketersediaan stok yang optimal.
+### Dataset
+The dataset used in this project includes transaction and product information that helps model inventory optimization. Below is an explanation of each column in the dataset:
 
-## Dataset
-Dataset yang digunakan dalam proyek ini mencakup informasi transaksi dan produk yang membantu dalam memodelkan optimasi inventaris. Berikut adalah penjelasan untuk setiap kolom dalam dataset:
+| **Column**                | **Description**                                                                                   | **Icon**  |
+|--------------------------|---------------------------------------------------------------------------------------------------|----------|
+| **Date**                 | The date when the transaction or data was recorded.                                                | 📅        |
+| **Store ID**             | A unique ID that identifies each store.                                                           | 🏬        |
+| **Product ID**           | A unique ID that identifies the product sold.                                                     | 📦        |
+| **Category**             | The product category (e.g., clothing, electronics, food).                                          | 🏷️       |
+| **Region**               | The geographical region or location where the product was sold.                                    | 🌍        |
+| **Inventory Level**      | The number of units of a product available at a store at a particular point in time.               | 📊        |
+| **Safety Stock**         | The quantity of safety stock to prevent stockouts.                                                | 🛡️       |
+| **Units Sold**           | The number of units sold on that date.                                                             | 💰        |
+| **Units Ordered**        | The number of units ordered for restocking or inventory replenishment.                            | 🛒        |
+| **Demand Forecast**      | The forecasted demand for the product for a given period.                                          | 🔮        |
+| **Price**                | The selling price of the product on that date.                                                     | 💵        |
+| **Order Cost**           | The cost incurred for ordering the product.                                                       | 💳        |
+| **Daily Unit Holding Cost** | The cost of holding one unit of a product per day, including storage fees.                        | 🏷️       |
+| **Estimated Lead Time**  | The estimated time required to acquire the ordered product.                                        | ⏳        |
+| **Discount**             | The discount applied to the product on that date.                                                  | 💸        |
+| **Competitor Pricing**   | The price offered by competitors for the same product on that date.                                | 💹        |
+| **Weather Condition**    | The weather condition on the given day (e.g., sunny, rainy, etc.).                                | 🌦️       |
+| **Holiday/Promotion**    | Indicates whether the day was a holiday or there was a promotion (1 = yes, 0 = no).                | 🎉        |
+| **Seasonality**          | Indicates if the product is influenced by seasonal factors (e.g., more sales during holidays or specific weather). | 🍂🌸❄️🌞 |
 
-| **Kolom**                | **Deskripsi**                                                                                   | **Ikon**  |
-|--------------------------|-------------------------------------------------------------------------------------------------|----------|
-| **Date**                 | Tanggal tercatatnya transaksi atau data.                                                         | 📅        |
-| **Store ID**             | ID unik yang mengidentifikasi setiap toko.                                                      | 🏬        |
-| **Product ID**           | ID unik yang mengidentifikasi produk yang terjual.                                               | 📦        |
-| **Category**             | Kategori produk (pakaian, elektronik, makanan, dll.).                                           | 🏷️       |
-| **Region**               | Wilayah atau lokasi geografis tempat produk dijual.                                              | 🌍        |
-| **Inventory Level**      | Jumlah persediaan (stok) yang tersedia di toko pada suatu titik waktu tertentu.                  | 📊        |
-| **Safety Stock**         | Jumlah stok pengaman untuk menghindari kehabisan stok.                                           | 🛡️       |
-| **Units Sold**           | Jumlah unit produk yang terjual pada tanggal tersebut.                                          | 💰        |
-| **Units Ordered**        | Jumlah unit produk yang dipesan untuk restock atau pengisian ulang stok.                         | 🛒        |
-| **Demand Forecast**      | Perkiraan jumlah permintaan untuk produk pada periode tertentu.                                 | 🔮        |
-| **Price**                | Harga jual produk pada tanggal tersebut.                                                        | 💵        |
-| **Order Cost**           | Biaya yang dikeluarkan untuk melakukan pemesanan produk.                                         | 💳        |
-| **Daily Unit Holding Cost** | Biaya penyimpanan unit produk per hari, mencakup biaya penyimpanan barang di gudang.            | 🏷️       |
-| **Estimated Lead Time**  | Waktu yang diperkirakan dibutuhkan untuk memperoleh barang yang dipesan.                         | ⏳        |
-| **Discount**             | Diskon yang diberikan untuk produk pada tanggal tersebut.                                       | 💸        |
-| **Competitor Pricing**   | Harga yang ditawarkan oleh pesaing untuk produk yang sama pada tanggal tersebut.                 | 💹        |
-| **Weather Condition**    | Kondisi cuaca pada hari tertentu (misalnya, cerah, hujan, dll.).                                | 🌦️       |
-| **Holiday/Promotion**    | Menandakan apakah hari tersebut adalah hari libur atau ada promosi yang berlangsung (1 = ya, 0 = tidak). | 🎉        |
-| **Seasonality**          | Menunjukkan apakah produk terpengaruh oleh faktor musiman (misalnya, produk lebih laku saat musim liburan atau saat cuaca tertentu). | 🍂🌸❄️🌞 |
-
-## Penggunaan
-1. Clone repository ini:  
+### Usage
+1. Clone this repository:  
    ```bash
    git clone https://github.com/username/repository-name.git
    ```
-2. Install dependencies yang diperlukan:  
+2. Install required dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
-3. Jalankan script atau notebook untuk memulai analisis.
+3. Run the script or notebook to start the analysis.
 
-## Link Portfolio
-Lihat lebih banyak karya saya di portfolio: [Portfolio Saya](https://nanasalpukat.github.io/portfolio_new)
+### Portfolio Link
+Check out more of my work on my portfolio: [My Portfolio](https://nanasalpukat.github.io/portfolio_new)
 
-## Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+### License
+This project is licensed under the [MIT License](LICENSE).
 
-Terima kasih atas perhatian Anda! ✨
+Thank you for your attention! ✨
