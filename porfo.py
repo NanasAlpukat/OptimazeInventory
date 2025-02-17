@@ -8,11 +8,6 @@ import seaborn as sns
 # Tambahkan gambar header dengan lebar penuh menggunakan st.image
 st.image('inventory.png', use_column_width=True)
 
-# # Tambahkan gambar header dengan lebar penuh menggunakan tag <img>
-# st.markdown("""
-#     <img src="image.png" style="width: 100%; height: 300px; object-fit: cover;">
-# """, unsafe_allow_html=True)
-# Tampilkan anak panah dan link tanpa underline menggunakan HTML di markdown
 st.markdown("""
 <a href="https://nanasalpukat.github.io/portfolio_new/" style="text-decoration:none; color: inherit;">⬅️ Kembali ke Beranda</a>
 """, unsafe_allow_html=True)
