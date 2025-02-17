@@ -1,5 +1,5 @@
 # **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
-```markdown
+
 
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk mengoptimalkan manajemen inventaris di sektor ritel dengan menggunakan teknik berbasis data, termasuk **Just In Time (JIT)**, **Safety Stock**, dan **Reorder Point (ROP)**. Tujuannya adalah untuk mengurangi biaya penyimpanan, mencegah kekurangan stok (stockout), dan meningkatkan efisiensi pengadaan produk. Dengan menggunakan data untuk membuat keputusan yang lebih baik, proyek ini membantu bisnis ritel dalam meningkatkan profitabilitas dan operasional mereka.
@@ -60,9 +60,6 @@ Dataset yang digunakan dalam proyek ini mencakup informasi transaksi dan produk 
 
 ## Link Portfolio
 Lihat lebih banyak karya saya di portfolio: [Portfolio Saya](https://nanasalpukat.github.io/portfolio_new)
-
-## Kontribusi
-Jika Anda tertarik untuk berkontribusi pada proyek ini, silakan fork repository ini dan buat pull request dengan perubahan yang diinginkan. Setiap kontribusi akan sangat dihargai!
 
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
