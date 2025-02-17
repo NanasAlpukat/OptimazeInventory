@@ -1,4 +1,4 @@
-# **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
+## **Data Driven Inventory Management Optimization for Retail Efficiency and Profitability**
 
 
 ## Deskripsi Proyek
