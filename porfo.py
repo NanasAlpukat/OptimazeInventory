@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# Tambahkan gambar header dengan lebar penuh menggunakan st.image
-st.image('inventory.png', use_column_width=True)
+st.image('image.png', use_container_width=True)
 
 st.markdown("""
 <a href="https://nanasalpukat.github.io/portfolio_new/" style="text-decoration:none; color: inherit;">⬅️ Kembali ke Beranda</a>
